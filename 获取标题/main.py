@@ -95,9 +95,6 @@ def get_title():
         if resp == None:
             url_queue.put(url)
             continue
-        #解析
-        e = etree.HTML(resp.text)
-        # url = resp.url
 
         id = url.split('//')[1].split('.')[0]
 
