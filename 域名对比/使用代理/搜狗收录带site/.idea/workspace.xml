@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d86cc22-33fa-4b51-a8ec-f8d88465a650" name="Default" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../../../备案/icp_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../chinaz/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../chinaz/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../备案/beian.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../备案/beian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../新建 XLSX 工作表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../新建 XLSX 工作表.xlsx" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/PKG-00.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/run.exe.5_bq7jbc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/runw.exe.pi57qk33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/build/main/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/code.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../聚名竞价/code.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/config/setting.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../聚名竞价/config/setting.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/config/域名竞价.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../聚名竞价/config/域名竞价.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../聚名竞价/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../聚名竞价/main.py" afterDir="false" />
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/siteip$sogouSearch.coverage" NAME="sogouSearch Coverage Results" MODIFIED="1626253689023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+<<<<<<< HEAD
+  <component name="JupyterTrust" id="ff0225ec-c3c7-4821-9df8-7d0b7eb3cdbf" />
+=======
+  <component name="JupyterTrust" id="b9f1948c-ce08-40a7-a21d-9d3c0cd5f539" />
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+  <component name="ProjectId" id="1vZLv3sk2Zpe3Hf09mv9E5dexkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+<<<<<<< HEAD
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../GEC监控" />
+=======
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../搜狗收录带site_加csv" />
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\MySelf\orderCode\域名对比\使用代理\搜狗收录带site使用代理ip" />
+    </key>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.sogou">
+=======
+  <component name="RunManager" selected="Python.sogouSearch">
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+    <configuration name="sogou" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="搜狗收录不采集列表带site使用代理ip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sogou.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sogouSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="搜狗收录不采集列表带site使用代理ip" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sogouSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+<<<<<<< HEAD
+        <item itemvalue="Python.sogou" />
+        <item itemvalue="Python.sogouSearch" />
+=======
+        <item itemvalue="Python.sogouSearch" />
+        <item itemvalue="Python.sogou" />
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d86cc22-33fa-4b51-a8ec-f8d88465a650" name="Default" comment="" />
+      <created>1626248043459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626248043459</updated>
+      <workItem from="1626764893123" duration="744000" />
+      <workItem from="1626765753817" duration="1922000" />
+      <workItem from="1627959495079" duration="182000" />
+      <workItem from="1627962083277" duration="1067000" />
+      <workItem from="1627963176365" duration="42000" />
+      <workItem from="1627973324645" duration="12532000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1630389144143" duration="347000" />
+      <workItem from="1632801205913" duration="1583000" />
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+<<<<<<< HEAD
+  <component name="WindowStateProjectService">
+    <state x="293" y="244" width="1375" height="602" key="#xdebugger.evaluate" timestamp="1627982306229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="293" y="244" width="1375" height="602" key="#xdebugger.evaluate/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1627982306229" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1628039061158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628039061158" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525779" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525779" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525779" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525779" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525675" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525674" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525674" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1628040060468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628040060468" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1628036525675" />
+  </component>
+=======
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sogouSearch.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/siteip$sogouSearch.coverage" NAME="sogouSearch Coverage Results" MODIFIED="1627980924160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/siteip$sogou.coverage" NAME="sogou Coverage Results" MODIFIED="1628038193271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/siteip$sogou.coverage" NAME="sogou Coverage Results" MODIFIED="1628038193271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/site$sogouSearch.coverage" NAME="sogouSearch Coverage Results" MODIFIED="1630389147422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/siteip$sogouSearch.coverage" NAME="sogouSearch Coverage Results" MODIFIED="1627980924160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b
+  </component>
+</project>

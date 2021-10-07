@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcbe84eb-5c31-40f9-898a-57a735e981f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../域名对比/百度/baiduSearch1.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../complainUtil/jjjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../complainUtil/ttt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../complainUtil/腾讯防水墙.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/ym.log.2021-06-13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/ym.log.2021-06-16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/.idea/juming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/conf/setting.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/conf/ym.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/sogouSearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/urls.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表/启动搜狗查询程序.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/ym.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/.idea/juming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/ch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/conf/setting.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/conf/ym.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/sogouSearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/urls.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_搜狗不带site/启动调度程序.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/.idea/juming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/conf/setting.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/conf/ym.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/index_t.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/longin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/sogouSearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/urls.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/verif_code.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/启动调度程序.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/juming_采集列表/聚名一口价监控购买工具.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/.idea/juming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/ch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/conf/setting.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/conf/ym.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/logger.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/sogouSearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/urls.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/ym.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/ym.log.2021-06-13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不带site_不带ip/启动调度程序.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/.idea/juming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/conf/setting.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/conf/ym.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/logger.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/sogouSearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/urls.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/ym.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_不采集列表_不带ip/启动搜狗查询程序.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/.idea/juming.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/conf/setting.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/conf/ym.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/index_t.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/logger.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/longin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/sogouSearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/urls.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/verif_code.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/ym.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/ym.log.2021-06-13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/启动调度程序.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/不带ip的最后版本/juming_采集列表_不带ip/聚名一口价监控购买工具.doc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/百度.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../域名对比/百度/conf/baidu_1624695625.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/verif/verifCode_0.png" afterPath="$PROJECT_DIR$/../../souGou/verif/verifCode_0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/verif/verifCode_1.png" afterPath="$PROJECT_DIR$/../../souGou/verif/verifCode_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/verif/verifCode_2.png" afterPath="$PROJECT_DIR$/../../souGou/verif/verifCode_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/verif/verifCode_3.png" afterPath="$PROJECT_DIR$/../../souGou/verif/verifCode_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/verif/verifCode_4.png" afterPath="$PROJECT_DIR$/../../souGou/verif/verifCode_4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../新建 XLSX 工作表.xlsx" afterPath="$PROJECT_DIR$/../../新建 XLSX 工作表.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/spider.db" afterPath="$PROJECT_DIR$/../server/spider.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../complainUtil/cbc.py" afterPath="$PROJECT_DIR$/../../complainUtil/cbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../complainUtil/taskdata/urls_out.txt" afterPath="$PROJECT_DIR$/../../complainUtil/taskdata/urls_out.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../complainUtil/腾讯防水墙.py" afterPath="$PROJECT_DIR$/../../complainUtil/腾讯防水墙.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/complain.py" afterPath="$PROJECT_DIR$/../../souGou/complain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/login.py" afterPath="$PROJECT_DIR$/../../souGou/login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/taskdata/urls_out.txt" afterPath="$PROJECT_DIR$/../../souGou/taskdata/urls_out.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/taskdata/推送.txt" afterPath="$PROJECT_DIR$/../../souGou/taskdata/推送.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../souGou/userPool/cookiePool.txt" afterPath="$PROJECT_DIR$/../../souGou/userPool/cookiePool.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/conf/setting.cfg" afterPath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/conf/setting.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/conf/ym.txt" afterPath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/conf/ym.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/logger.py" afterPath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/logger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/sogouSearch.py" afterPath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/sogouSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/ym.log" afterPath="$PROJECT_DIR$/../../域名对比/juming_不带site_不带ip/ym.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/conf/setting.cfg" afterPath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/conf/setting.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/conf/ym.txt" afterPath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/conf/ym.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/sogouSearch.py" afterPath="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip/sogouSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/百度/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../域名对比/百度/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/百度/baiduSearch.py" afterPath="$PROJECT_DIR$/../../域名对比/百度/baiduSearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../域名对比/百度/urls.txt" afterPath="$PROJECT_DIR$/../../域名对比/百度/urls.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/taskdata/urls.txt" afterPath="$PROJECT_DIR$/../server/taskdata/urls.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/taskdata/urls_output.txt" afterPath="$PROJECT_DIR$/../server/taskdata/urls_output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/juming.cfg" afterPath="$PROJECT_DIR$/conf/juming.cfg" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/worker$juming_bak.coverage" NAME="juming_bak Coverage Results" MODIFIED="1620651094608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/worker$juming_bak1.coverage" NAME="juming_bak1 Coverage Results" MODIFIED="1626309116448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/worker$juming.coverage" NAME="juming Coverage Results" MODIFIED="1620654216559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/worker$juming_bak__1_.coverage" NAME="juming_bak (1) Coverage Results" MODIFIED="1626312702123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>set_cvs_header</find>
+      <find>未完成</find>
+      <find>失败</find>
+      <find>成功完成域名</find>
+      <find>这里错了</find>
+      <find>print</find>
+      <find>这里错了1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JupyterTrust" id="d91e4694-10d1-4f32-a393-0101c1b7ae4f" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-64" />
+    <option name="y" value="403" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectId" id="1vQVSbBgEWobEJsEv1Jlf3ihwIU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../域名对比/juming_不采集列表_不带ip" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\MySelf\orderCode\worker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="juming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\code\MySelf\orderCode\worker\juming_bak.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="juming_bak (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juming_bak.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="juming_bak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\code\MySelf\orderCode\worker\juming_bak1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="juming_bak1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="worker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juming_bak1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.juming_bak" />
+      <item index="1" class="java.lang.String" itemvalue="Python.juming_bak1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.juming_bak (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.juming" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.juming" />
+        <item index="1" class="java.lang.String" itemvalue="Python.juming_bak (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.juming_bak1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.juming_bak" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcbe84eb-5c31-40f9-898a-57a735e981f0" name="Default" comment="" />
+      <created>1619748807347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619748807347</updated>
+      <workItem from="1626494305125" duration="116000" />
+      <workItem from="1626499932270" duration="79000" />
+      <workItem from="1626500063690" duration="46000" />
+      <workItem from="1626500152248" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-64" y="403" width="1934" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1626500179912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1626500179912" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1626500087164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1626500087164" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

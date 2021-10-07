@@ -1,0 +1,3 @@
+python ./beian.py
+
+pause

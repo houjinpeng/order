@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f732f25d-bab4-49e7-881e-ff309f25477d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/使用代理/.idea/使用代理.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/使用代理/搜狗收录不带site/.idea/搜狗收录不带site使用代理ip.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/使用代理/搜狗收录带site/.idea/搜狗收录不采集列表带site使用代理ip.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/使用代理/采集列表/.idea/juming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chinaz.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chinaz/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chinaz/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/.idea/搜狗收录不带site使用代理ip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/pc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/ym.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不带site使用代理ip/启动调度程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/搜狗收录不采集列表带site使用代理ip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/cookie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用代理/搜狗收录不采集列表带site使用代理ip/启动搜狗查询程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/正常抓取/搜狗带site/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/正常抓取/搜狗带site/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../备案/beian.py" beforeDir="false" afterPath="$PROJECT_DIR$/../备案/beian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建 XLSX 工作表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../新建 XLSX 工作表.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$sogouSearch_cookie__1_.coverage" NAME="sogouSearch_cookie (1) Coverage Results" MODIFIED="1626071791951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juming_不采集列表_不带ip" />
+    <SUITE FILE_PATH="coverage/$sogouSearch__1_.coverage" NAME="sogouSearch (1) Coverage Results" MODIFIED="1626069413412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juming_不采集列表_不带ip" />
+    <SUITE FILE_PATH="coverage/$sogouSearch.coverage" NAME="sogouSearch Coverage Results" MODIFIED="1626059806136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juming_不带site_不带ip" />
+    <SUITE FILE_PATH="coverage/$sogouSearch_cookie.coverage" NAME="sogouSearch_cookie Coverage Results" MODIFIED="1626068816758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juming_不采集列表_不带ip/conf" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>此ip请求失败</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="e3136670-b8cd-4473-949e-8fb6c3da436f" />
+  <component name="ProjectId" id="1vZK9zN8Vj2v9xCdzl2yOpNsD2U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/使用代理" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\MySelf\orderCode\域名对比\juming_不采集列表_不带ip" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\MySelf\orderCode\域名对比\使用代理" />
+      <recent name="D:\code\MySelf\orderCode\域名对比" />
+      <recent name="D:\code\MySelf\orderCode\域名对比\juming_不采集列表_不带ip\conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sogouSearch (3)">
+    <configuration name="sogouSearch (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="域名对比" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juming_不采集列表_不带ip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juming_不采集列表_不带ip/sogouSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sogouSearch (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="域名对比" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/使用代理/juming_采集列表_不带ip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/使用代理/juming_采集列表_不带ip/sogouSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sogouSearch (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="域名对比" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/使用代理/采集列表" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/使用代理/采集列表/sogouSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sogouSearch_cookie (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="域名对比" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juming_不采集列表_不带ip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juming_不采集列表_不带ip/sogouSearch_cookie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sogouSearch_cookie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="域名对比" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juming_不采集列表_不带ip/conf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\code\MySelf\orderCode\域名对比\juming_不采集列表_不带ip\sogouSearch_cookie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.sogouSearch (1)" />
+      <item itemvalue="Python.sogouSearch_cookie" />
+      <item itemvalue="Python.sogouSearch_cookie (1)" />
+      <item itemvalue="Python.sogouSearch (2)" />
+      <item itemvalue="Python.sogouSearch (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sogouSearch (3)" />
+        <item itemvalue="Python.sogouSearch (2)" />
+        <item itemvalue="Python.sogouSearch_cookie (1)" />
+        <item itemvalue="Python.sogouSearch (1)" />
+        <item itemvalue="Python.sogouSearch_cookie" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f732f25d-bab4-49e7-881e-ff309f25477d" name="Default" comment="" />
+      <created>1626056084200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626056084200</updated>
+      <workItem from="1626764025231" duration="17000" />
+      <workItem from="1626764203473" duration="572000" />
+      <workItem from="1628231229086" duration="1424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628231866358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628231866358" />
+    <state x="715" y="219" key="#xdebugger.evaluate" timestamp="1628232417407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="219" key="#xdebugger.evaluate/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232417407" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1626764778799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1626764778799" />
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1628232654403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654403" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1628232654403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654403" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1628232654403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654403" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1628232654403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654403" />
+    <state width="1877" height="335" key="GridCell.Tab.1.bottom" timestamp="1628232654404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654404" />
+    <state width="1877" height="335" key="GridCell.Tab.1.center" timestamp="1628232654404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654404" />
+    <state width="1877" height="335" key="GridCell.Tab.1.left" timestamp="1628232654403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654403" />
+    <state width="1877" height="335" key="GridCell.Tab.1.right" timestamp="1628232654404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="335" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232654404" />
+    <state x="0" y="-1071" width="1531" height="999" maximized="true" key="dock-window-1" timestamp="1628231709776">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="0" y="-1071" width="1531" height="999" maximized="true" key="dock-window-1/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628231709776" />
+    <state x="0" y="-1029" width="1531" height="636" maximized="true" key="dock-window-2" timestamp="1628232442637">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="0" y="-1029" width="1531" height="636" maximized="true" key="dock-window-2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1628232442637" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/使用代理/采集列表/sogouSearch.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$sogouSearch__3_.coverage" NAME="sogouSearch (3) Coverage Results" MODIFIED="1628232486853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/使用代理/采集列表" />
+    <SUITE FILE_PATH="coverage/$sogouSearch__2_.coverage" NAME="sogouSearch (2) Coverage Results" MODIFIED="1628231738209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/使用代理/juming_采集列表_不带ip" />
+  </component>
+</project>

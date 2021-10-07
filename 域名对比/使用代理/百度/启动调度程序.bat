@@ -1,0 +1,3 @@
+python ./baiduSearch.py
+
+pause

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a867bc95-4ab3-438c-a425-fe883a06fc70" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../souGou/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../域名对比/使用代理/.idea/使用代理.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site/.idea/搜狗收录不带site使用代理ip.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录带site/.idea/搜狗收录不采集列表带site使用代理ip.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../域名对比/使用代理/采集列表/.idea/juming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chinaz.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../chinaz/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../chinaz/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../complainUtil/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../complainUtil/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/taskdata/liyou.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/taskdata/liyou.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/taskdata/urls_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/taskdata/urls_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/taskdata/推送.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/taskdata/推送.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/userPool/cookiePool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/userPool/cookiePool.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../souGou/verif/verifCode_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../souGou/verif/verifCode_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../域名对比/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/.idea/搜狗收录不带site使用代理ip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/pc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/ym.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不带site使用代理ip/启动调度程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/.idea/搜狗收录不采集列表带site使用代理ip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/cookie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/使用代理/搜狗收录不采集列表带site使用代理ip/启动搜狗查询程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/正常抓取/搜狗带site/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../域名对比/正常抓取/搜狗带site/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/正常抓取/百度/conf/baidu_1625563799.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../域名对比/正常抓取/百度/conf/baidu_1625563878.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../备案/beian.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../备案/beian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../新建 XLSX 工作表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../新建 XLSX 工作表.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/move_mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/move_mouse.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/server$move_mouse.coverage" NAME="move_mouse Coverage Results" MODIFIED="1620610573454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/server$app.coverage" NAME="app Coverage Results" MODIFIED="1620624893037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/server$server.coverage" NAME="server Coverage Results" MODIFIED="1626308939626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/server$slide_crack.coverage" NAME="slide_crack Coverage Results" MODIFIED="1620626470541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/server1$server.coverage" NAME="server Coverage Results" MODIFIED="1620637804064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/server1$slide_crack__1_.coverage" NAME="slide_crack (1) Coverage Results" MODIFIED="1620638935324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gitetycoat.com</find>
+      <find>log</find>
+      <find>append</find>
+      <find>reslut_save_db</find>
+      <find>出错</find>
+      <find>deal_history</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="ad3a78f6-c295-4729-950d-f3601c8c90be" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1059" />
+  </component>
+  <component name="ProjectId" id="1xIBkyM2KizachxowMaxONWwoa2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\MySelf\orderCode\server1\taskdata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.server">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="move_mouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/move_mouse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slide_crack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="slide_crack (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slide_crack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="slide_crack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slide_crack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.slide_crack" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.move_mouse" />
+      <item itemvalue="Python.slide_crack (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.slide_crack (1)" />
+        <item itemvalue="Python.slide_crack" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.move_mouse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a867bc95-4ab3-438c-a425-fe883a06fc70" name="Default" comment="" />
+      <created>1620609332465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620609332465</updated>
+      <workItem from="1630032869826" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

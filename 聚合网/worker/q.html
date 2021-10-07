@@ -1,0 +1,134 @@
+<form class="layui-form">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">关键字</label>
+        <div class="layui-input-block">
+            <input type="text" name="key" placeholder="关键字" autocomplete="off" class="layui-input">
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+
+
+        <div class="layui-inline">
+            <label class="layui-form-label">BSR</label>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" name="BSR_min" placeholder="最小值" autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid">-</div>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" name="BSR_max" placeholder="最大值" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label">评论数</label>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" name="comment_min" placeholder="最小值" autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid">-</div>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" name="comment_max" placeholder="最大值" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label">评分值</label>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" name="score_min" placeholder="最小值" autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid">-</div>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" name="score_max" placeholder="最大值" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label">类目</label>
+            <div class="layui-input-block">
+                <select name="cate" lay-filter="aihao">
+                    <option value="">选择类目</option>
+                    <option value="Giochi e giocattoli">Giochi e giocattoli</option>
+                    <option value="Amazon Launchpad">Amazon Launchpad</option>
+                    <option value="Bébé et Puériculture">Bébé et Puériculture</option>
+                    <option value="Cuisine et Maison">Cuisine et Maison</option>
+                    <option value="Prima infanzia">Prima infanzia</option>
+                    <option value="Kitchen & Dining">Kitchen & Dining</option>
+                    <option value="Electrónica">Electrónica</option>
+                    <option value="Styluses">Styluses</option>
+                    <option value="Clothing, Shoes & Jewelry">Clothing, Shoes & Jewelry</option>
+                    <option value="Bürobedarf & Schreibwaren">Bürobedarf & Schreibwaren</option>
+                    <option value="Salud y cuidado personal">Salud y cuidado personal</option>
+                    <option value="Küche, Haushalt & Wohnen">Küche, Haushalt & Wohnen</option>
+                    <option value="GPS Cases">GPS Cases</option>
+                    <option value="Módulos de memoria para impresoras">Módulos de memoria para impresoras</option>
+                    <option value="Relojes">Relojes</option>
+                    <option value="Handmade Products">Handmade Products</option>
+                    <option value="Musical Instruments">Musical Instruments</option>
+                    <option value="Health & Household">Health & Household</option>
+                    <option value="SLR Camera Lenses">SLR Camera Lenses</option>
+                    <option value="Industrial & Scientific">Industrial & Scientific</option>
+                    <option value="Tools & Home Improvement">Tools & Home Improvement</option>
+                    <option value="Computer Keyboards">Computer Keyboards</option>
+                    <option value="Hogar y cocina">Hogar y cocina</option>
+                    <option value="Illuminazione">Illuminazione</option>
+                    <option value="Garten">Garten</option>
+                    <option value="Laptop Backpacks">Laptop Backpacks</option>
+                    <option value="Baumarkt">Baumarkt</option>
+                    <option value="Elektronik & Foto">Elektronik & Foto</option>
+                    <option value="Luminaires et Éclairage">Luminaires et Éclairage</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Repeaters">Repeaters</option>
+                    <option value="Casa e cucina">Casa e cucina</option>
+                    <option value="Entertainment Collectibles">Entertainment Collectibles</option>
+                    <option value="High-Tech">High-Tech</option>
+                    <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+                    <option value="Sports & Outdoors">Sports & Outdoors</option>
+                    <option value="Cell Phones & Accessories">Cell Phones & Accessories</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Auto & Motorrad">Auto & Motorrad</option>
+                    <option value="Movies & TV">Movies & TV</option>
+                    <option value="Video Games">Video Games</option>
+                    <option value="Earbud & In-Ear Headphones">Earbud & In-Ear Headphones</option>
+                    <option value="Equipaje">Equipaje</option>
+                    <option value="Pet Supplies">Pet Supplies</option>
+                    <option value="Iluminación">Iluminación</option>
+                    <option value="Books">Books</option>
+                    <option value="Arts, Crafts & Sewing">Arts, Crafts & Sewing</option>
+                    <option value="Toys & Games">Toys & Games</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Spielzeug">Spielzeug</option>
+                    <option value="Juguetes y juegos">Juguetes y juegos</option>
+                    <option value="Beleuchtung">Beleuchtung</option>
+                    <option value=""></option>
+                    <option value="Uhren">Uhren</option>
+                    <option value="Schmuck">Schmuck</option>
+                    <option value="Sport & Freizeit">Sport & Freizeit</option>
+                    <option value="Kindle Store">Kindle Store</option>
+                    <option value="Joyería">Joyería</option>
+                    <option value="Digital Picture Frames">Digital Picture Frames</option>
+                    <option value="Jeux et Jouets">Jeux et Jouets</option>
+                    <option value="Deportes y aire libre">Deportes y aire libre</option>
+                    <option value="Headphone Cases">Headphone Cases</option>
+                    <option value="Patio, Lawn & Garden">Patio, Lawn & Garden</option>
+                    <option value="Office Products">Office Products</option>
+                    <option value="Home & Kitchen">Home & Kitchen</option>
+                    <option value="Computer Blue Light Blocking Glasses">Computer Blue Light Blocking Glasses</option>
+                    <option value="Photographic Studio Photo Backgrounds">Photographic Studio Photo Backgrounds</option>
+
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <!--                <button type="submit" class="layui-btn" lay-filter="demo1"  id="demo1">立即提交</button>-->
+            <button type="button" class="layui-btn" lay-filter="sub" id="sub">立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+
+</form>
