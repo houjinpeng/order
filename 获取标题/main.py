@@ -11,6 +11,7 @@ except Exception:
     data = []
 
 
+# s = requests.session()
 
 data_file = "./标题.csv"
 
@@ -25,14 +26,14 @@ def write_hand():
 
 write_hand()
 
-def set_proxes(s):
+def set_proxes():
 
     print('更换代理')
     s =  requests.session()
     ip = proxy_queue.get()
     proxies = {
         'http': f'http:{ip}',
-        'https': f'https:{ip}'
+        'https': f'http:{ip}'
     }
     s.proxies = proxies
 
@@ -70,15 +71,17 @@ def requests_handler(url,s):
             # 'User-Agent': UserAgent().chrome,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'Accept-Language': 'zh-CN,zh;q=0.9',
-            'cookie':'gr_user_id=229c9ea0-79e0-4522-80a4-544744aba97f; t%5Ftuiguang1=bb%5F17; UM_distinctid=17c408dfd96407-0d6754a748bb2d-a7d173c-1fa400-17c408dfd972cc; _qddaz=QD.s8kovf.8jcnti.ku9nmbwp; tencentSig=9966901248; t%5Ftuiguang=jm%2Ecn; ASPSESSIONIDACTCQBQB=DFNKPGIALINGBPBPILPGICAO; IESESSION=alive; skinName=deepblue; Juming%2Ecom=t%5Fagent%5Ftuiguang=1&new%5Fbanban%5Fzhu=1; ASPSESSIONIDCCRCSAQB=NCDFKIHAGDCIBLCMLNLEGIFM; pgv_pvi=518071633231161623; fang%5Fcc%5Fgj=ok3; t%5Flaiyuan=263117%2Ejm%2Ecn; Hm_lvt_f94e107103e3c39e0665d52b6d4a93e7=1633239934,1633239935,1633239936,1633253894; Hm_lpvt_f94e107103e3c39e0665d52b6d4a93e7=1633253894; CNZZDATA3432862=cnzz_eid%3D36636905-1633167339-https%253A%252F%252Fwww.baidu.com%252F%26ntime%3D1633244721; _qdda=3-1.3ljkun; _qddab=3-snyaxs.kub176er; _qddamta_4009972996=3-0; qqcrm-ta-set-uid-success&518071633231161623=1; first-set-uid-time=1633253894597'
+            # 'cookie':'gr_user_id=229c9ea0-79e0-4522-80a4-544744aba97f; t%5Ftuiguang1=bb%5F17; UM_distinctid=17c408dfd96407-0d6754a748bb2d-a7d173c-1fa400-17c408dfd972cc; _qddaz=QD.s8kovf.8jcnti.ku9nmbwp; tencentSig=9966901248; t%5Ftuiguang=jm%2Ecn; ASPSESSIONIDACTCQBQB=DFNKPGIALINGBPBPILPGICAO; IESESSION=alive; skinName=deepblue; Juming%2Ecom=t%5Fagent%5Ftuiguang=1&new%5Fbanban%5Fzhu=1; ASPSESSIONIDCCRCSAQB=NCDFKIHAGDCIBLCMLNLEGIFM; pgv_pvi=518071633231161623; fang%5Fcc%5Fgj=ok3; t%5Flaiyuan=263117%2Ejm%2Ecn; Hm_lvt_f94e107103e3c39e0665d52b6d4a93e7=1633239934,1633239935,1633239936,1633253894; Hm_lpvt_f94e107103e3c39e0665d52b6d4a93e7=1633253894; CNZZDATA3432862=cnzz_eid%3D36636905-1633167339-https%253A%252F%252Fwww.baidu.com%252F%26ntime%3D1633244721; _qdda=3-1.3ljkun; _qddab=3-snyaxs.kub176er; _qddamta_4009972996=3-0; qqcrm-ta-set-uid-success&518071633231161623=1; first-set-uid-time=1633253894597'
         }
 
         try:
-            response = s.get(url, headers=headers, timeout=10)
+            response = s.get(url, headers=headers, timeout=5)
         except Exception as e:
             print(e)
-            url_queue.put(url)
             return None
+        if response.text == '<script>window.location.href=\'/index.htm?\'+window.location.search.substring(1);</script>':
+            return requests_handler(url,s)
+
         return response
 
 def save_data(id,url,title,regist_time,yunxing_time,jianjie,sales,kucun):
@@ -94,10 +97,17 @@ def get_title():
         resp = requests_handler(url,s)
         if resp == None:
             url_queue.put(url)
+            s = set_proxes()
+
             continue
 
         id = url.split('//')[1].split('.')[0]
-
+        # if resp.text == '<script>window.location.href=\'/index.htm?\'+window.location.search.substring(1);</script>':
+        #     title = '未开通店铺'
+        #     save_data(id, url, title, '', '', '', '', '')
+        #     save_outurl(url)
+        #     print(url_queue.qsize(), id, url, title, '', '', '', '', '')
+        #     continue
         #解析
         e = etree.HTML(resp.text)
 
@@ -109,12 +119,7 @@ def get_title():
             print(url_queue.qsize(),id, url, title, '', '', '', '', '')
             continue
 
-        if resp.text == '<script>window.location.href=\'/index.htm?\'+window.location.search.substring(1);</script>':
-            title = '未开通店铺'
-            save_data(id, url, title, '', '', '', '', '')
-            save_outurl(url)
-            print(url_queue.qsize(), id, url, title, '', '', '', '', '')
-            continue
+
 
         if title == '聚名网-到期域名查询抢注-域名注册-老域名买卖交易平台' or 'ERROR' in title:
             title = '未开通店铺'
@@ -167,7 +172,7 @@ if __name__ == '__main__':
     t.start()
     t = []
 
-    for i in range(20):
+    for i in range(100):
         t.append(threading.Thread(target=get_title))
     for i in t:
         i.start()
