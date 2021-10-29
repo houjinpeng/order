@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7468a9b-fa92-4e31-bdaf-c933d746afdb" name="Default" comment="">
+    <list default="true" id="d7468a9b-fa92-4e31-bdaf-c933d746afdb" name="Default" comment="更改搜狗提交  一条一条提交">
+      <change afterPath="$PROJECT_DIR$/../regist_sogou/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../regist_sogou/email_tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../regist_sogou/regist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../regist_sogou/slideVerfication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chinaz" beforeDir="false" afterPath="$PROJECT_DIR$/../chinaz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/souGou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/souGou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../complainUtil/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../complainUtil/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/complain.py" beforeDir="false" afterPath="$PROJECT_DIR$/complain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/souGou_old.py" beforeDir="false" afterPath="$PROJECT_DIR$/souGou_old.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskdata/liyou.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskdata/urls_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taskdata/urls_out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskdata/推送.txt" beforeDir="false" afterPath="$PROJECT_DIR$/taskdata/推送.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userPool/cookiePool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/userPool/cookiePool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verif/verifCode_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建 XLSX 工作表.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../新建 XLSX 工作表.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../域名对比/使用代理/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../域名对比/使用代理/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../okex-python-sdk-api" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -185,8 +170,17 @@
       <workItem from="1635382735811" duration="893000" />
       <workItem from="1635383645492" duration="46000" />
       <workItem from="1635383731837" duration="6863000" />
-      <workItem from="1635391306613" duration="700000" />
+      <workItem from="1635391306613" duration="786000" />
+      <workItem from="1635469275725" duration="612000" />
     </task>
+    <task id="LOCAL-00001" summary="更改搜狗提交  一条一条提交">
+      <created>1635393186720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635393186720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +197,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改搜狗提交  一条一条提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改搜狗提交  一条一条提交" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/souGou$surface.coverage" NAME="surface 覆盖结果" MODIFIED="1635383647862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../soft/worker/python3.7/Lib/site-packages/cairosvg" />
