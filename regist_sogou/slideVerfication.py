@@ -42,7 +42,7 @@ class SlideVerificationCode():
         print("需要滑动的距离为：", distance)
         # 根据滑动距离生成滑动轨迹
         locus = self.get_slide_locus(distance)
-        print("生成的滑动轨迹为:{}，轨迹的距离之和为{}".format(locus, distance))
+        # print("生成的滑动轨迹为:{}，轨迹的距离之和为{}".format(locus, distance))
         # 按下鼠标左键
         ActionChains(driver).click_and_hold(slide_element).perform()
         time.sleep(0.5)
@@ -60,7 +60,7 @@ class SlideVerificationCode():
         # 滑动失败的情况下，重试count次
         try:
             if 's' not in driver.find_element_by_xpath('//*[@id="app"]/div/div[3]/div/div[1]/div[5]/div/button').text:
-                print("第{}次验证失败，开启重试".format(6 - self.count))
+                # print("第{}次验证失败，开启重试".format(6 - self.count))
                 self.count -= 1
                 return self.slide_verification(driver, slide_element, distance)
             return True

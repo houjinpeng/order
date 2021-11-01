@@ -72,9 +72,10 @@ class Regiset():
 
                     chrome.find_element_by_xpath('//*[@id="app"]/div/div[3]/div/div[1]/div[7]/button').click()
                     time.sleep(1)
-                    print(f'注册成功 账号：{zhanghao} 密码：{password}')
-                    print('=='*2)
-                    self.save_account(zhanghao,password)
+                    if chrome.current_url == 'https://zhanzhang.sogou.com/':
+                        print(f'注册成功 账号：{zhanghao} 密码：{password}')
+                        print('=='*20)
+                        self.save_account(zhanghao,password)
 
             except Exception as e:
                 print(e)
