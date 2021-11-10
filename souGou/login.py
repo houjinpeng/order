@@ -22,7 +22,10 @@ logFile = r"./conf/setting.cfg"
 config.read(logFile, encoding="utf-8")
 config = config.defaults()
 task = config.get('task')
-
+proxies = {
+    "http": "http://user-sp68470966:maiyuan312@gate.dc.visitxiangtan.com:20000",
+    "https": "http://user-sp68470966:maiyuan312@gate.dc.visitxiangtan.com:20000",
+}
 
 def build_email():
     email = ''
@@ -105,13 +108,13 @@ class SouGou():
     def requestHandler(self, url, headers, num, method='get', data=None):
         if method == 'get':
             try:
-                r = self.s.get(url, headers=headers)
+                r = self.s.get(url, headers=headers,proxies=proxies)
                 # print('请求完毕')
                 return r
             except Exception as e:
                 print(e)
         else:
-            r = self.s.post(url, headers=headers, json=data)
+            r = self.s.post(url, headers=headers, json=data,proxies=proxies)
             print(f'线程{num}正在登录')
             print(r.text)
             if 'svg' in r.text:

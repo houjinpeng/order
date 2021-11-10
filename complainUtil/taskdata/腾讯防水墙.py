@@ -49,7 +49,6 @@ def _init_slider():
     # print(sess_r.text)
     data_dict['sess'] = re.findall('sess:"(.*?)",', sess_r.text)[0]
     data_dict['nonce'] = re.findall('nonce:"(.*?)",', sess_r.text)[0]
-    data_dict['pow_answer'] = re.findall('prefix:"(.*?)"', sess_r.text)[0]
     app_data= re.findall('dcFileName:"(.*?)",', sess_r.text)[0]
     data_dict['data_app'] = app_data.split('&')[0].split('=')[-1]
     data_dict['t'] = app_data.split('&')[1]
@@ -68,7 +67,7 @@ def _init_slider():
     r = s.get(imgurl2, headers=headers)
     with open('2.png', 'wb') as fw:
         fw.write(r.content)
-    # print(data_dict)
+    print(data_dict)
     return data_dict
 
 def _get_slide_distance(bg1,bg2):
@@ -224,7 +223,6 @@ def index():
     start_time = int(time.time() * 1000)
     trace = _generate_trace(distance, start_time)  #生成轨迹
     # st = _encrypt_trace(trace, distance)
-    # print(st)
     print(data_dict,trace)
     kes = get_kes(data_dict['data_app'],data_dict['t'])
     data = {
@@ -258,37 +256,56 @@ def index():
         'prehandleLoadTime': '182',
         'createIframeStart': int(time.time()*1000),
         'subsid': '2',
-        'cdata': 0,
+        'cdata': '0',
         'ans': '340,40;',
         'vsig': '',
         'websig': '',
         'subcapclass': '',
-        'pow_answer': data_dict['pow_answer'],
-        'pow_calc_time': 12,
-        'collect': "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",
-        'tlg': 2188,
+        'pow_answer': '97b29991be388159#694',
+        'pow_calc_time': '12',
+        'collect': 'qY0PirHsr0wa/LD8SdHrLTLj7 d0DPLe4m1ppMSiDyggrMEfgdhDDXy4cYfozp/Vk0NUL0FpxsDXjAl4IYkh/Y/FGvjfRkbdeEcewCXSgOcdTv5atoAZrIori6ffKmS6oUpWP834PhPjDuXnWfhxSGehydCAI8vIUmCtNoUEh6ppOldX675eVQLX3GjntBjPrQoRnM0sdg /Ns8BM0AFCj3A2hTYy/ZsUfSHpcbQF4YjyOtAo3F5UWbbmOg3YUnUQ0Tez33DvNqY71Bx3Rsh1L2YqYunCkCKaZUzFzeiBSCHBc9TfOUf2MhwaCXTpyZCyBjR5ysCaE1tT4KZBxYgS6lnPR5tNWOomlKKXelufJwFjZIvGArDbn8vrkhWU7n8h4N14PQAxi3W2DJ3C5ef0jIf42Sa6DSaH8v7KVU5FW3FBHdg6IlMgo9e/ds5TCDeLLhcBAa9SxxCTzkdssuGHIiVhvgY4vYKF1pzf0KvuqRXtut9GsLrRIzHeyWxPuMTyoW Hx72eeQfcodyLu1cWVN4SHXRmh8jj8Aj/7spW Yppy97hglMKJlZB5UmMcREdqMVAzpdD4K2IG51oFQ0FOzHVkWKNT86s9PBN8/y9aaxenIcGePFMQ1Bl2495PpFkXDPgICZ3g00vwFYmiADBNI7Sw hAPIHfNWfEJ1KkA7qQDG/fAi9YGfm0pjwa522ow827rA45c Uq0uIz/QP5pq1Ynt51Ovx98OEudEyb4l9QMQdhdfpUn1AxB2F1 lSSAbBxn2twOFVSpnBwZTFICWTW/1RyDDGvoac3eRfau3B docUd8IYNeeUmaoe9Qn2SeblkKTMCrQjPQBVaEqdwprxClQsAby4ltnnxm9C/TRJ/entKtuQ3d/Cv1aB1iy1va6prVBt Yh2Dp1RN/klTLV3wSS6e9kN11I3GIvT3B1nsuCP /QiN9z79RL9jQRd/2/wANZR7PBaejuBGDzSubWnzqkGS6YXFQXSIQtG1BSjMWCCdmo4ie0LEFGWKRjZkHv5/QOqzIcbH MVGJ Ip/Dor2OsUBfxI7AeoBofmq1UDFLEgoaMFMD0bbCDSs9NSdwChqBKAZiurky84VecTH8JMD6pSTxbvp22XFFDfv MccTrETuBW3sPr82x0EGqgVZcqm9ig6bZZ6EOjWJW1b8FQuuUNpSEJKxmN 2ScoCmT16lWLyPvXrShVjjY Vh9quCtRcWTBvBHHCTCqdEgMt 2COVOuctpNYdBR60pn79B1QIM4n0Wp0krKo1/c/I0QqWADu8MQm8vfaSA6dalHt/LCdEiWh3VEj5HfkgvZ3NMWh1pIgbHLFssS8UjKBJt8uQLmXXM65n31vfvnAluwtr3kUMPctyvuXM6tU 9aQYNS/8lOOIJBg1L/yU44gMqVyrf5IHsHwfDbA1bsLOvyE4rxlebKu pwa67bC15FQaTEz2MOHtwu5dHLnli2VgKSSckgkJK9pwOgBASDbdbAGn8bGZdFN7/whUYLDKhtBc8FlKD2xUPF bg6XDyEMS3QFxdw03KcMoAwtdibKT8FI3PKSuAk2OUHuaqco0WXvmrkUmZnhO/T0yX/pGeFr2hgD1IQZpg4bC86PIct7sfyP4fkqw99MRLeIpahx5xj1wXHKYFx6qwqWtG7G9M2P9L4C7ctBTdBvIVnIMTc9mCxsuGVEHSEl3ZpG4BPPnlAh4Ipg4gBeh0VDhrZfCHJE8IB9qpD6ABvCZzk5llbD9uV1SIcmTcsVkBCuv3Y3dVsTbU58vVR16H1AxB2F1 lSZkzkDjSFFXe/srlQrd/zIuC2QDKv6TQQnp3Rv6I/X1ujFT81Om4WWE6B Wnr6hYo LypRQOXpbzWuF3u3s0HQbTTAf3cFnhoUjIMMGzzBF2p42UvaboPdbVa4SvOrBnhSrh5Ch8T1QZTSoXOu8VVFTSMdK7cjstbjHxzpCWR BMmBcW/kzav8u1dsBY7SanpA4UzUIXse AseaMMTyi01RowTB5ZDmd cKcFekLuVdX9Syc8kra8yc3AMhhdArBpsP9N4DAI7IJHFoa3 RVmgWUEVRlbdu7WwwMX7TkTSDX53q65M5 Kgqa9KsDswKh621KZlVIxhesxkWPmravHd6qp w9Po1Qpk/uSAFTqRNlhZmliZIBCMdTK3NpG HnH64L4Pah8ro0=',
+        'tlg': '2188',
         'fpinfo': '',
         'eks': kes,
-        'nonce': data_dict['nonce'],
+        'nonce': 'eda1152f11f1daf0',
         'vlg': '0_0_1',
+        'vData': 'W4hcQalehU_qy-XCk0hWtkJj-lBL_A6U2M1H9W*BkSBxiEQrPPWgNi33XXPAUNGbuQsNnjSZtCFur0RiqslJ6a89Ors0QTonBPLy67lhyTDFNoFsNz0RmaqxmPhKeuHzuAKqlxUcL9yFjBMA5RsJRiYY',
+        'Content-Type': 'text/plain'
     }
-#     data= {
-#     "rnd": "705274",
-#     "TCapIframeLoadTime": "170",
-#     "prehandleLoadTime": "245",
-#     "subsid": "2",
-#     "cdata": 0,
-#     "ans": "468,50;",
-#     "tlg": 2636,
-#     "fpinfo": "",
-#     "nonce": "eda1152f11f1daf0",
-#     "vlg": "0_0_1"
-# }
 
     po_url = 'https://t.captcha.qq.com/cap_union_new_verify'
     r = requests.post(po_url,headers=headers,data=data)
     print(r.text)
+    v_dict = {"mouseclick":[{"t":2273,"x":269,"y":148}],
+              "keyvalue":[],"user_Agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+              "resolutionx":1920,
+              "resolutiony":1080,
+              "winSize":[300,232],
+              "url":"https://captcha.guard.qcloud.com/cap_union_new_show",
+              "refer":"https://cloud.oppo.com/login.html",
+              "begintime":int(time.time()),
+              "endtime":int(time.time())+3000,
+              "platform":1,
+              "os":"other",
+              "keyboards":0,
+              "flash":1,
+              "pluginNum":50,
+              "index":1,
+              "ptcz":"",
+              "tokenid":1596750647,
+              "a":1596750647,
+              "btokenid":'null',
+              "tokents":1546775906,
+              "ips":{"in":["192.168.50.125"]},
+              "colorDepth":24,
+              "cookieEnabled":'true',
+              "timezone":8,
+              "wDelta":0,
+              "mousemove":[[265,148,2273707],[-14,5,12],[-19,8,16],[-16,7,17],[-18,7,15],[-17,6,18],[-7,2,17],[-11,3,16],[-9,1,17],[-6,0,17],[-6,0,15],[-7,0,17],[-7,1,16],[-11,0,17],[-10,0,17],[-8,0,20],[-6,0,15],[-4,0,15],[-5,0,17],[-5,0,17],[-3,0,17],[-2,0,34],[-3,0,32],[-2,0,17],[-6,0,18],[-1,0,15],[-1,0,36],[-2,0,16],[-1,0,15],[-2,0,16],[-1,0,20],[-1,0,32],[-1,0,15],[-2,2,17],[-2,1,18],[-3,2,15],[-2,3,16],[-2,1,17],[-1,1,33],[4,0,217],[2,0,18],[4,0,15],[1,0,19],[3,0,16],[2,0,16],[3,0,17],[4,0,17],[2,0,16],[2,0,17],[2,0,16],[2,0,18],[3,0,15],[2,0,16],[2,0,17],[3,0,33],[3,0,37],[2,0,16],[2,0,15],[2,0,16],[2,0,17],[2,0,16],[2,0,17],[1,0,17],[2,0,17],[3,0,16],[1,0,18],[2,0,16],[1,0,50],[1,0,18],[1,0,18],[1,0,14],[1,0,19],[1,1,15],[1,0,33],[1,0,16],[1,0,18],[1,0,32],[1,0,89],[1,0,29],[1,0,15],[1,0,18],[1,0,17],[1,0,15],[-1,-1,352],[-1,0,32],[0,-1,18],[-1,0,17],[-1,0,682],[-1,0,16],[0,-1,84],[-1,0,33],[1,0,518],[1,0,16],[1,0,33],[2,0,33],[-1,-1,618]],"keyUpCnt":0,"keyUpValue":[],"mouseUpValue":[{"t":2279,"x":120,"y":195}],"mouseUpCnt":1,"mouseDownValue":[],"mouseDownCnt":0,"orientation":[],"bSimutor":0,"focusBlur":{"in":[],"out":[],"t":[]},"fVersion":31,"charSet":"UTF-8","resizeCnt":0,"errors":[],"screenInfo":"1920-1080-1040-24-*-*-*","elapsed":0,"ft":"qf_7P_n_H","coordinate":[10,9,0.5],"clientType":"2","trycnt":1,"refreshcnt":3,"slideValue":[[45,198,127],[2,0,15],[4,0,16],[1,0,19],[3,0,16],[2,0,16],[3,0,17],[4,0,17],[2,0,16],[2,0,16],[2,0,16],[2,0,18],[3,0,16],[2,0,16],[2,0,16],[3,0,34],[3,0,36],[2,0,16],[2,0,15],[2,0,16],[2,0,17],[2,0,16],[2,0,17],[1,0,18],[2,0,16],[3,0,18],[1,0,16],[2,0,17],[1,0,50],[1,0,17],[1,0,18],[1,0,15],[1,0,19],[1,1,15],[1,0,33],[1,0,16],[1,0,18],[1,0,31],[1,0,89],[1,0,29],[1,0,16],[1,0,18],[1,0,16],[1,0,16],[-1,-1,351],[-1,0,33],[0,-1,18],[-1,0,17],[-1,0,682],[-1,0,16],[0,-1,84],[-1,0,34],[1,0,517],[1,0,15],[1,0,33],[2,0,34],[-1,-1,617],[0,0,5]],
+              "dragobj":0}
 
+    # print(st)
+    # get_kes(data_dict['data_app'],data_dict['t'])
 
 
 if __name__ == '__main__':
@@ -300,23 +317,3 @@ if __name__ == '__main__':
     ""sd":{"od":"AYUBCYC","clientType":"","coordinate":[10,62,0.5],"trycnt":2,"refreshcnt":0,"slideValue":轨迹,"dragobj":1,"ft":"qf_7P_n_H"}}"
     '''
     # pass
-    '''
-    
-    {
-        "sd": {
-            "od": "C",
-            "clientType": "",
-            "coordinate": [
-                10,
-                64,
-                0.5
-            ],
-            "trycnt": 3,
-            "refreshcnt": 0,
-            "slideValue":[] ,
-            "dragobj": 1,
-            "ft": "qf_7P_n_H"
-        }
-    }
-    '''
-

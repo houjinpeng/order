@@ -54,7 +54,7 @@
       <recent name="D:\code\MySelf\orderCode\souGou\taskdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.complain">
+  <component name="RunManager" selected="Python.login">
     <configuration name="complain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="souGou" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,9 +151,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login" />
         <item itemvalue="Python.complain" />
         <item itemvalue="Python.souGou_old" />
-        <item itemvalue="Python.login" />
         <item itemvalue="Python.surface" />
       </list>
     </recent_temporary>
