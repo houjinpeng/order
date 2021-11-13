@@ -62,8 +62,8 @@ def index():
         url = url_queue.get()
         while True:
             try:
-                r = requests.get(url.strip(),headers=headers,timeout=40)
-                # r = requests.get(url.strip(), headers=headers, timeout=10, proxies=proxies)
+                # r = requests.get(url.strip(),headers=headers,timeout=40)
+                r = requests.get(url.strip(), headers=headers, timeout=40, proxies=proxies)
                 if '您已达到活动会话的限制' in r.text:
                     logger.info('您已达到活动会话的限制  休息5分钟后继续请求 或者手动更换ip')
                     time.sleep(5 * 60)
