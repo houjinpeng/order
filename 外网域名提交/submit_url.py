@@ -50,6 +50,7 @@ def get_url_titile(url):
     try:
         yuan_url = url.split('save')[1][1:]
         r = requests.get(yuan_url,headers=headers,timeout=10)
+        r.encoding = 'utf-8'
         e = etree.HTML(r.text)
         title = e.xpath('//title/text()')
         return title
@@ -93,7 +94,7 @@ if __name__ == '__main__':
     for u in data:
         url_queue.put(u)
     t = []
-    for i in range(10):
+    for i in range(1):
         t.append(threading.Thread(target=index))
     for j in t:
         j.start()

@@ -33,8 +33,8 @@ class Regiset():
             chrome_options.add_argument(f"--proxy-server={proxy[0]}")
             # chrome_options.add_argument('--headless')  # # 浏览器不提供可视化页面
             # chrome_options.add_argument('--disable-gpu')  # 禁用GPU加速,GPU加速可能会导致Chrome出现黑屏，且CPU占用
-            chrome = webdriver.Chrome(chrome_options=chrome_options)
-            # chrome = webdriver.Chrome()
+            # chrome = webdriver.Chrome(chrome_options=chrome_options)
+            chrome = webdriver.Chrome()
             while True:
                 try:
                     chrome.get(self.url)
