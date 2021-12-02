@@ -55,9 +55,16 @@ class Refresh():
     def check(self,data):
         try:
             data = json.loads(data)
-            now_time = str(datetime.datetime.now())[:10]
-            if data['data']['gxsj'] >= now_time+' 00:00:00':
+            now_time = time.localtime(time.time())
+            year = str(now_time.tm_year)
+            mon = str(now_time.tm_mon)
+            day = '0'+str(now_time.tm_mday) if now_time.tm_mday < 10 else str(now_time.tm_mday)
+            time_str = year+mon+day
+            if time_str in data['data']['sj_max']:
                 return True
+            # now_time = str(datetime.datetime.now())[:10]
+            # if data['data']['gxsj'] >= now_time+' 00:00:00':
+            #     return True
             return False
         except Exception as e:
             return False
