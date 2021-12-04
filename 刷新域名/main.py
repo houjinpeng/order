@@ -9,7 +9,9 @@ import base64
 with open('./url.txt','r',encoding='utf-8') as fr:
     data_list = fr.readlines()
 
-
+#初始化url
+with open('./successful.txt','r',encoding='utf-8') as fr:
+    successful_list = fr.readlines()
 
 def get_proxies():
     while True:
@@ -37,16 +39,14 @@ class Refresh():
                 'Accept-Encoding': 'gzip, deflate',
                 'Accept-Language': 'zh-CN,zh;q=0.9',
                 'Connection': 'keep-alive',
-                'Content-Length': '62',
+                'Content-Length': str(len(data)),
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                 'Host': '47.56.160.68:10299',
                 'Origin': 'http://www.jucha.com',
                 'Referer': 'http://www.jucha.com/',
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36',
-                'Cookie': 'SRVHASH=cbcd42843507235c'
             }
-            u = 'http://47.56.160.68:10392/api.php'
-            r = requests.post(u,headers=headers,data=data,timeout=3)
+            r = requests.post(url,headers=headers,data=data,timeout=3)
             return r
 
         except Exception as e:
@@ -55,11 +55,12 @@ class Refresh():
     def check(self,data):
         try:
             data = json.loads(data)
+            print(data)
             now_time = time.localtime(time.time())
             year = str(now_time.tm_year)
-            mon = str(now_time.tm_mon)
-            day = '0'+str(now_time.tm_mday) if now_time.tm_mday < 10 else str(now_time.tm_mday)
-            time_str = year+mon+day
+            # mon = str(now_time.tm_mon)
+            # day = '0'+str(now_time.tm_mday) if now_time.tm_mday < 10 else str(now_time.tm_mday)
+            time_str = year
             if time_str in data['data']['sj_max']:
                 return True
             # now_time = str(datetime.datetime.now())[:10]
@@ -71,35 +72,50 @@ class Refresh():
 
 
     def save_url(self,url):
+        lock.acquire()
         with open('successful.txt','a',encoding='utf-8') as fw:
             fw.write(url+'\n')
+        lock.release()
 
-    def index(self,url):
-        # 获取域名
-        domain = re.findall('ym=(.*?)&', url)[0]
-        domain = base64.b64decode(domain).decode()
-        token = re.findall('token=(.*)', url)[0]
-        while True:
+    def index(self):
+        while not url_queue.empty():
+            url = url_queue.get()
+            if url+'\n' in successful_list:
+                continue
+            # 获取域名
+            domain = re.findall('ym=(.*?)&', url)[0]
+            domain = base64.b64decode(domain).decode()
+            token = re.findall('token=(.*)', url)[0]
             post_url = 'http://47.56.160.68:10299/api.php'
-            data = f'qg=&ym={domain}&token={token}'
+            data = f'qg=1&ym={domain}&token={token}'
             r = self.request_headler(post_url,data)
             is_refresh = self.check(r.text)
             if is_refresh == True:
                 #保存
                 self.save_url(url)
                 print(f'成功 {url}')
-                break
+                continue
+            url_queue.put(url)
             time.sleep(3)
 
-if __name__ == '__main__':
-    proxy_queue = queue.Queue()
-    thread_list = []
+    def start(self):
+        thread_list = []
+        for i in range(10):
+            thread_list.append(threading.Thread(target=Refresh().index))
+        for t in thread_list:
+            t.start()
+        for t in thread_list:
+            t.join()
 
+if __name__ == '__main__':
+
+    lock = threading.RLock()
+    proxy_queue = queue.Queue()
+    url_queue = queue.Queue()
+    thread_list = []
     for url in data_list:
         if url != '':
-            thread_list.append(threading.Thread(target=Refresh().index,args=(url.strip(),)))
-
-    for t in thread_list:
-        t.start()
-    for t in thread_list:
-        t.join()
+            url_queue.put(url.strip())
+    Refresh().start()
+    print('结束')
+    time.sleep(10000)
