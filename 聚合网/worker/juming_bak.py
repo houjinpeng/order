@@ -1,14 +1,4 @@
 # coding:utf-8
-# #   域名建站历史查询: history
-# #   搜狗 PR 查询: pr
-# #   搜狗收录查询:  sl
-# #   搜狗反链查询:  sf
-# #   百度收录查询:  bl
-# #   百度反链查询:  bf
-# #   百度v认证查询: bv
-# #   百度评价查询:  bp
-# #   icp备案查询:  icp
-
 from pyquery import PyQuery as pq
 from threading import Thread
 import concurrent.futures
