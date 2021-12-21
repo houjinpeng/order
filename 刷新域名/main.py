@@ -4,6 +4,7 @@ import time,datetime
 import re
 import json
 import base64
+import configparser
 
 #初始化url
 with open('./url.txt','r',encoding='utf-8') as fr:
@@ -12,6 +13,10 @@ with open('./url.txt','r',encoding='utf-8') as fr:
 #初始化url
 with open('./successful.txt','r',encoding='utf-8') as fr:
     successful_list = fr.readlines()
+
+config = configparser.ConfigParser()
+config.read('./setting.ini',encoding='utf-8')
+time_str = config.get('Setting','time_str')
 
 def get_proxies():
     while True:
@@ -56,16 +61,8 @@ class Refresh():
         try:
             data = json.loads(data)
             print(data)
-            now_time = time.localtime(time.time())
-            year = str(now_time.tm_year)
-            # mon = str(now_time.tm_mon)
-            # day = '0'+str(now_time.tm_mday) if now_time.tm_mday < 10 else str(now_time.tm_mday)
-            time_str = year
             if time_str in data['data']['sj_max']:
                 return True
-            # now_time = str(datetime.datetime.now())[:10]
-            # if data['data']['gxsj'] >= now_time+' 00:00:00':
-            #     return True
             return False
         except Exception as e:
             return False

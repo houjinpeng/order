@@ -115,13 +115,14 @@ class juming:
                     # return self.result
 
             except Exception as ex:
-                if retry < 5:
-                    return self.query_domain(items, retry + 1)
-                else:
-                    self.result['succeed'] = False
-                    self.result['msg'] = f"domain_info {ex}"
-                    # print(f"query_domain {ex}")
-                    # return self.result
+                pass
+                # if retry < 5:
+                #     return self.query_domain(items, retry + 1)
+                # else:
+                #     self.result['succeed'] = False
+                #     self.result['msg'] = f"domain_info {ex}"
+                # print(f"query_domain {ex}")
+                # return self.result
 
     def query_info(self, retry: int = 0):
         '''
