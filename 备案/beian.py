@@ -10,7 +10,8 @@ import json
 import numpy as np
 import hashlib
 import threading, queue
-
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s -line:%(lineno)d - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -75,16 +76,16 @@ class BeiAn():
         # logger.info('更换代理')
         ip = proxy_queue.get()
         self.proxies = {
-            'http': f'http:{ip}',
-            'https': f'https:{ip}'
+            'http': f'http://{ip}',
+            'https': f'http://{ip}'
         }
 
     def request_handler(self,url,data,headers,type='data'):
         try:
             if type == 'data':
-                r = requests.post(url, headers=headers, data=data, proxies=self.proxies,timeout=10)
+                r = self.s.post(url, headers=headers, verify=False, data=data, proxies=self.proxies,timeout=10)
             else:
-                r = requests.post(url, headers=headers, json=data, proxies=self.proxies,timeout=10)
+                r = self.s.post(url, headers=headers, verify=False, json=data, proxies=self.proxies,timeout=10)
             try:
                 data = json.loads(r.text)
             except Exception as e:
@@ -93,6 +94,7 @@ class BeiAn():
                 return None
             return r
         except Exception as e:
+            print(e)
             return None
 
     def get_distance(self, fg, bg):
@@ -105,6 +107,19 @@ class BeiAn():
         _, distance = np.unravel_index(result.argmax(), result.shape)
         return distance
 
+    def get_cookie(self):
+        url = "https://beian.miit.gov.cn/"
+        payload = {}
+        headers = {
+        }
+        try:
+            # response = requests.request("GET", url, proxies=self.proxies,headers=headers, data=payload)
+            response = self.s.get(url, proxies=self.proxies,headers=headers)
+        except Exception as e:
+            self.set_proxies()
+            return self.get_cookie()
+        return response
+
     def get_token(self):
         # logger.info('获取token')
         m = hashlib.md5()
@@ -116,6 +131,7 @@ class BeiAn():
             'Accept-Language': "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
             'Connection': "keep-alive",
             'Content-Length': "64",
+            'cookie':'__jsluid_s=06ee83aa108ede7f9ba961531738304e',
             'Content-Type': "application/x-www-form-urlencoded; charset=UTF-8",
             'Host': "hlwicpfwc.miit.gov.cn",
             'Origin': "https://beian.miit.gov.cn",
@@ -130,7 +146,7 @@ class BeiAn():
         data = f'authKey={m.hexdigest()}&timeStamp={int((time.time() * 1000))}'
         r = self.request_handler(auth_url,data,headers)
         if r == None:
-            proxies = self.set_proxies()
+            self.set_proxies()
             return self.get_token()
         # logger.info('获取token成功  获取验证码图片 ')
         return r
@@ -159,7 +175,7 @@ class BeiAn():
         # 获取验证码图片 并返回
         img_resp = self.request_handler(img_url,data='',headers=headers)
         if img_resp == None:
-            proxies = self.set_proxies()
+            self.set_proxies()
             return self.get_img(token)
         # logger.info("验证码获取成功  破解中···")
         img_data = json.loads(img_resp.text)
@@ -268,8 +284,8 @@ class BeiAn():
             'unitName': d['unitName'],
             'natureName': d['natureName'],
             'serviceLicence': d['serviceLicence'],
-            'serviceName': d['serviceName'],
-            'homeUrl': d['homeUrl'],
+            'serviceName': '',
+            'homeUrl':'',
             'updateRecordTime': d['updateRecordTime'],
             'limitAccess': d['limitAccess'],
         }
@@ -278,8 +294,10 @@ class BeiAn():
         lock.release()  # 释放锁
 
     def index(self,i):
-        self.proxies = self.set_proxies()
+        self.set_proxies()
         while not domain_queue.empty():
+            self.s = requests.session()
+            self.get_cookie()
             r = self.get_token()
             token = json.loads(r.text)['params']['bussiness']
             fg, bg, uuid = self.get_img(token)
@@ -299,11 +317,12 @@ if __name__ == '__main__':
     # 开启线程代理
     t = threading.Thread(target=get_proxies)
     t.start()
+    time.sleep(3)
 
 
     thread_list = []
     if domain_queue.qsize() > 200:
-        num = 200
+        num = 100
     else:
         num = domain_queue.qsize()
     for i in range(num):

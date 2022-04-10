@@ -21,7 +21,7 @@ from logging import handlers
 
 # cookie = 'gr_user_id=369b158e-a04d-471e-a6af-91be2682116e; UM_distinctid=17c2a784b74f57-0041c7813c00c-a7d173c-1fa400-17c2a784b75490; _qddaz=QD.oeyvft.ibtdvl.ku3j0sao; laiyuan=7a08c112cda6a063.juming.com; PHPSESSID=87168vpmt4conc8m66s0a5fmpf; Hm_lvt_f94e107103e3c39e0665d52b6d4a93e7=1632907515,1632968010,1632968149,1632968152; Hm_lpvt_f94e107103e3c39e0665d52b6d4a93e7=1632974188; a801967fdbbbba8c_gr_session_id=002e2d35-dfa0-421f-9326-8bfd91dd57cc; a801967fdbbbba8c_gr_session_id_002e2d35-dfa0-421f-9326-8bfd91dd57cc=true; Juming_uid=301111; Juming_isapp=0; Juming_zhu=5a8a35b6277a1f860b564557d98051b5; Juming_jf=1942f3cf22a5313fdf60b60f888aa18b; Juming_qy=5e18c6e710d098bdcb6956af22285eee'
 session = requests.session()
-
+cookie = ''
 doamin_dict = {}
 jingjia_dict = {}
 # 读取预算
@@ -34,6 +34,7 @@ headers = {
     'Accept-Language': 'zh-CN,zh;q=0.9',
     'Connection': 'keep-alive',
     'Content-Length': '45',
+    'Cookie':cookie,
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'Host': '7a08c112cda6a063.juming.com:9696',
     'Origin': 'http://7a08c112cda6a063.juming.com:9696',
@@ -47,9 +48,9 @@ headers3 = {
     'Accept-Language': 'zh-CN,zh;q=0.9',
     'Cache-Control': 'max-age=0',
     'Connection': 'keep-alive',
-    # 'cookie': cookie,
     'Host': '7a08c112cda6a063.juming.com:9696',
     'Upgrade-Insecure-Requests': '1',
+    'Cookie': cookie,
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36'
 }
 
@@ -163,6 +164,7 @@ class ChuJiaJob(QtCore.QThread):
 
 
     def request_headler(self, url, headers, method='get', data=None):
+        headers['Cookie'] = cookie
         if method == 'post':
             try:
                 resp = session.post(url, headers=headers, data=data, timeout=10)
@@ -352,6 +354,7 @@ class InItTable(QtCore.QThread):
 
     def request_headler(self, url, headers):
         try:
+            headers['Cookie'] = cookie
             resp = session.get(url, headers=headers, timeout=10)
             if '保密' in resp.text:
                 log.logger.debug('需要重新登陆')
@@ -625,16 +628,16 @@ class LoginForm(QWidget):
         global password
         user_id = self.led_workerid.text()
         password = self.led_pwd.text()
-        m = hashlib.md5()
-        m1 = hashlib.md5()
-        m.update(f'[jiami{password}mima]'.encode())
-        m1.update(m.hexdigest()[0:19].encode())
-        password_md5 = m1.hexdigest()[0:19]
-
-        session,msg = Login(f're_mm={password_md5}&re_yx={user_id}&re_yzm=').index()
-        if msg['code'] == -1:
-            self.msg.setText(f'<font color="red">{msg["msg"]}</font>')
-            return
+        # m = hashlib.md5()
+        # m1 = hashlib.md5()
+        # m.update(f'[jiami{password}mima]'.encode())
+        # m1.update(m.hexdigest()[0:19].encode())
+        # password_md5 = m1.hexdigest()[0:19]
+        global cookie
+        session,msg,cookie = Login().login(user_id,password)
+        # if msg['code'] == -1:
+        #     self.msg.setText(f'<font color="red">{msg["msg"]}</font>')
+            # return
         with open('./config/setting.ini','w',encoding='utf-8') as fw:
             d['user_id'] = user_id
             d['password'] = password
@@ -1235,11 +1238,13 @@ class Bidding(QWidget):
             url = 'http://7a08c112cda6a063.juming.com:9696/user/#/qiang_jj'
             resp = self.request_headler(url,headers3, method='get')
             if '<title>用户登录-聚名网</title>' in resp.text:
-                session = Login(f're_mm={password_md5}&re_yx={user_id}&re_yzm=').index()
-            time.sleep(10)
+                global cookie
+                session, msg, cookie = Login().login(user_id, password)
+                time.sleep(10)
 
 
 if __name__ == "__main__":
+
     app = QApplication(sys.argv)
     ex = LoginForm()
     sys.exit(app.exec_())

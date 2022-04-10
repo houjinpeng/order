@@ -59,7 +59,7 @@ def get_chrome():
     desired_capabilities = DesiredCapabilities.CHROME  # 修改页面加载策略
     desired_capabilities["pageLoadStrategy"] = "none"  # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出
     option.add_argument("--disable-blink-features=AutomationControlled")
-    driver = webdriver.Chrome(executable_path='./chromedriver.exe',options=option)
+    driver = webdriver.Chrome(executable_path='./chromedriver.exe',chrome_options=option)
     return driver
 
 def move():

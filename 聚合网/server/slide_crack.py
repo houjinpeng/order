@@ -313,6 +313,7 @@ def exec_token():
                     domain_init.add(i)
                 continue
             for item in res['data']:
+                print(item)
                 if res['data'].index(item) % 2 == 0:
                     domain_task.add((item['ym'], item['token'], 0))
                 else:
@@ -355,7 +356,6 @@ def senddomain():
         d = {"domain": "", "token": ""}
     else:
         row = domain_task.pop()
-        print(row)
         try:
             d['domain'], d["token"], d['nums'] = row
         except Exception as e:
@@ -364,6 +364,21 @@ def senddomain():
 
 
     return json.dumps(d)
+
+
+@app.route("/get_token",)
+def get_token():
+    try:
+        token, auth, session = verify_lake.pop()
+    except Exception as e:
+        print('请更新token池  没有token了')
+        return json.dumps('请更新token池')
+    data = {
+        'token':token,
+        'auth':auth,
+        'session':session,
+    }
+    return json.dumps(data)
 
 @app.route("/return", methods=["POST"])
 def returndomain():
@@ -391,7 +406,6 @@ def get_token_page():
     session = request.form.get("session")
     if token and auth and session:
         verify_lake.add((token, auth, session))
-
     return render_template("test_verify.html")
 
 @app.route("/")

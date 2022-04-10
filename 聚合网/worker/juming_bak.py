@@ -276,7 +276,8 @@ if __name__ == '__main__':
             hand = abs(int(task_list) - int(perform))
             data_list = [i for i in range(hand)]
             t_list = []
-            for i in range(int(thread_num)):
+            # for i in range(int(thread_num)):
+            for i in range(1):
                 t_list.append(Thread(target=juming().query_domain,args=( f"{i}-{task}",)))
             for t in t_list:
                 t.start()
