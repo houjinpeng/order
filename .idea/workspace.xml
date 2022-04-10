@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa08c072-f92d-49af-8ad5-680859755e22" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/order_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/刷新域名/.idea/刷新域名.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/域名对比/使用代理/百度/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/域名对比/百度/.idea/百度.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备案/t.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抓取域名阿里云/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/抓取域名阿里云/去重.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz" beforeDir="false" afterPath="$PROJECT_DIR$/chinaz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/continuous_out_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/csv_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/history-2021-04-25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/near_five_out_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/out/near-history-2021-04-25.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/启动近五年脚本.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/Processing/启动连续年份脚本.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/.idea/chinaz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/china_1627460867.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/outurl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/chinaz/启动程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/.idea/complainUtil.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/aes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/cbc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/des.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/git防水墙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/js执行文件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/slideVerfication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/t.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/taskdata/liyou.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/taskdata/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/taskdata/urls_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/taskdata/yx.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/数美滑块验证码.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/腾讯防水墙.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/距离.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/complainUtil/防水墙js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/github" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/github.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/.idea/school.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/伯贝克学院.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/school/伯贝克学院_荣誉.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/.idea/souGou.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/1.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/complain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/souGou_old.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/taskdata/liyou.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/taskdata/urls_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/taskdata/推送.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/taskdata/搜狗站长账号 .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/userPool/cookiePool.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif/verifCode_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/verif_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/启动登录程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/souGou/启动自动投诉程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/.idea/域名对比.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/misc.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/misc.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/modules.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/modules.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/使用代理.iml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/.idea/使用代理.iml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/misc.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/misc.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/搜狗收录不带site使用代理ip.iml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/.idea/搜狗收录不带site使用代理ip.iml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/conf/pc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/ym.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录不带site/启动调度程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/misc.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/misc.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/搜狗收录不采集列表带site使用代理ip.iml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/.idea/搜狗收录不采集列表带site使用代理ip.iml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site/启动搜狗查询程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/.idea/搜狗收录不采集列表带site使用代理ip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/启动搜狗查询程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/搜狗收录带site_加csv/敏感词.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/.idea/juming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/baiduSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/baiduSearch1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/conf/baidu_1630388822.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/ym.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/启动调度程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/百度/敏感词.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/.idea/juming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/conf/setting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/index_t.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/longin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/sogouSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/sogouSearch.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/verif_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/ym.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/使用代理/采集列表/启动调度程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/百度/conf/baidu_1624705734.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名对比/百度/t.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名爬虫/conf/words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名爬虫/conf/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/域名爬虫/serach_sogo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/misc.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/misc.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/modules.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/modules.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/.idea/备案.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/beian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/beian_1628401072.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/outurl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/备案/启动备案查询程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/新建 XLSX 工作表.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/app2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/conf/juming.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/export_excel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/export_excel2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/move_mouse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/slide_crack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/spider.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/taskdata/fail_url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/taskdata/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/taskdata/urls1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/taskdata/urls_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/taskdata/ym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/templates/monitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/templates/test_verify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/启动模拟鼠标移动.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/启动爬虫程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/启动调度程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/敏感词.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/数据导出.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/数据导出标题版本.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/server/杀死进程.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/.idea/worker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/conf/juming.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/juming_bak.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/juming_bak1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/q.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚合网/worker/启动爬虫程序.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/modules.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/modules.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/聚名竞价.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/聚名竞价.iml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/.idea/聚名竞价.iml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/config/setting.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/config/域名竞价.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/longin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/old/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/old/main0929.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/old/main1001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/static/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/static/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/static/juming_ico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/verif_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/聚名竞价/自动竟价流程 .txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/modules.xml~HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/modules.xml~ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/.idea/获取标题.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/outurl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaz/获取标题/url.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/域名对比/使用代理/百度/.idea/juming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/域名对比/使用代理/百度/.idea/juming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/域名对比/使用代理/百度/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/域名对比/使用代理/百度/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/域名对比/使用代理/百度/baiduSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/域名对比/使用代理/百度/baiduSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/域名对比/使用代理/百度/conf/baidu_1630388822.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/域名对比/使用代理/百度/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/域名对比/使用代理/百度/urls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/备案/beian.py" beforeDir="false" afterPath="$PROJECT_DIR$/备案/beian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/备案/beian_1628401072.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/备案/outurl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/备案/urls.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22GghalAs4d6bthDCwwp09YAId4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\MySelf\order_code\域名对比" />
+      <recent name="E:\code\MySelf\order_code\备案" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\MySelf\order_code\域名对比\百度" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.baiduSearch">
+    <configuration name="去重" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="order_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/抓取域名阿里云" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/抓取域名阿里云/去重.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="baiduSearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="order_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/域名对比/使用代理/百度" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/域名对比/使用代理/百度/baiduSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="beian" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="order_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/备案" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/备案/beian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="order_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/抓取域名阿里云" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/抓取域名阿里云/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="order_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/备案" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/备案/t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.baiduSearch" />
+        <item itemvalue="Python.index" />
+        <item itemvalue="Python.去重" />
+        <item itemvalue="Python.beian" />
+        <item itemvalue="Python.t" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="aa08c072-f92d-49af-8ad5-680859755e22" name="更改" comment="" />
+      <created>1639469458254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639469458254</updated>
+      <workItem from="1639469459551" duration="38000" />
+      <workItem from="1647928383176" duration="5395000" />
+      <workItem from="1647935040016" duration="7706000" />
+      <workItem from="1647945176231" duration="1616000" />
+      <workItem from="1648003511400" duration="7223000" />
+      <workItem from="1648091136221" duration="896000" />
+      <workItem from="1648183580649" duration="2605000" />
+      <workItem from="1648279099756" duration="169000" />
+      <workItem from="1648355968979" duration="5917000" />
+      <workItem from="1648426203607" duration="18000" />
+      <workItem from="1648443403415" duration="494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/备案/t.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/域名对比/使用代理/百度/baiduSearch.py</url>
+          <line>310</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/order_code$index.coverage" NAME="index 覆盖结果" MODIFIED="1648186876231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抓取域名阿里云" />
+    <SUITE FILE_PATH="coverage/order_code$.coverage" NAME="去重 覆盖结果" MODIFIED="1647939991888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/抓取域名阿里云" />
+    <SUITE FILE_PATH="coverage/order_code$t.coverage" NAME="t 覆盖结果" MODIFIED="1647932032328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/备案" />
+    <SUITE FILE_PATH="coverage/order_code$beian.coverage" NAME="beian 覆盖结果" MODIFIED="1647933632758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/备案" />
+    <SUITE FILE_PATH="coverage/order_code$baiduSearch.coverage" NAME="baiduSearch 覆盖结果" MODIFIED="1648443503514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/域名对比/使用代理/百度" />
+  </component>
+</project>
