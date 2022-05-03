@@ -1,23 +1,24 @@
 [ACCOUNT]
-username=104038
-password=qq123123
+username=3198
+password=bskl10018
 #解除保护
 baohu_name=爱慧慧
 
+#聚名设置
 [JMSEARCH]
 #设置过滤条件  不设置域名参数为空  不设置的参数为0
 #域名设置 多个用，隔开.com,.net,.cn
-ymhz=.com
+ymhz=.com,.cn,.com.cn
 #域名长度1
 ymcd_1=0
 #域名长度2
 ymcd_2=0
 #到期时间多少天
-dqsj_1=0
+dqsj_1=120
 #出售价格1
 qian_1=1
 #出售价格2
-qian_2=300
+qian_2=3000
 #qq检测   未拦截 1  绿色认证 11 已拦截 2 还未检测99
 qqjc=0
 #被墙检测  正常1 被墙3  污染2   还未检测99
@@ -45,40 +46,63 @@ pr_1=0
 #百度反链
 bdfl_1=0
 #结果排序 3域名价格 35浏览热门 5上架时间 41今日上架
-jgpx=0
+jgpx=41
 #关注筛选   1 只查我关注的店铺 2 排除我关注的店铺 3只查我关注的域名 4排除我关注的域名
 gzsx= 0
-
 #每个多少条
-psize=50
-#建站历史  2历史存在(baxz 填个人 企业 其他)  99不存在
+psize=500
+#建站历史
 sfba_1=1
-baxz=企业
 #微信检测 1未拦截 2已拦截 3确认访问 4复制访问 99还未检测
 wxjc=0
-
 
 #其他设置
 [OTHER]
 #线程数
-beian_task_num=1
-history_task_num=100
+task_num=1
+#刷新域名列表时间
+refresh=10
+
+#是否购买域名可赎回   是 否
+is_buy=是
+#是否购买域名   是直接购买   否保存文件
+buy=否
 
 
-
+[beian]
+#是否对比备案
+is_comp_beian=是
 #备案号
 beian_num = 5
 #超过多少天排除
 out_day=60
+#备案性质    企业  个人   其他   多个  企业,个人（,分割）   排除
+beian_xingzhi=个人
 
-#备案性质    企业  个人   其他   多个  企业,个人（,分割）   是排除
-beian_xingzhi=企业
 
-#是否购买域名可赎回   是 否
-is_buy=是
-
-#是否购买域名   是直接购买   否保存文件
-buy=是
-
+[history]
 #是否对比历史
-is_comp_history=是
+is_comp_history=否
+#是否对比敏感词
+is_comp_word=是
+
+is_comp_age=是
+#对比年龄 大于xx年
+age=2
+
+[soGou]
+#是否对比搜狗 是 否
+is_comp_sogou=否
+
+#收录数
+sogou_record= >=2
+
+#判断快照时间 是否包含字符串   1小时 2小时 1天   不设置不填
+kuaizhao_time=1小时,1天,2天
+
+[zhuceshang]
+#是否查询注册商
+is_comp_zhuceshang=否
+
+#注册商包含字符串 （gathernames1,gathernames2,gathernames3,gathernames4）
+baohan=

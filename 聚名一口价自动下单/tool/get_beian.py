@@ -78,6 +78,7 @@ class BeiAn():
     def get_cookie(self):
         url = "https://beian.miit.gov.cn/"
         headers = {
+            'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36'
         }
         try:
             response = self.s.get(url, proxies=self.proxies,headers=headers,timeout=10)
@@ -247,5 +248,6 @@ class BeiAn():
 if __name__ == '__main__':
     t = threading.Thread(target=get_proxies)
     t.start()
-    print(BeiAn().beian_info('baidu.com'))
+    data = BeiAn().beian_info('baidu.com')
+    print(data)
 

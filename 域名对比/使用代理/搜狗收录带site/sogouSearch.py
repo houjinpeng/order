@@ -135,14 +135,9 @@ class SoGou():
                 'http':f'http:{ip}',
                 'https':f'https:{ip}'
             }
-<<<<<<< HEAD:域名对比/使用代理/搜狗收录带site/sogouSearch.py
             self.s.proxies = proxies
             self.s.get('https://v.sogou.com/',headers=headers,timeout=3)
-=======
-            print(proxies)
-            self.s.proxies = proxies
-            self.s.get('https://v.sogou.com/',headers=headers,timeout=3,verify=False)
->>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b:域名对比/使用代理/搜狗收录带site/sogouSearch.py
+
         except Exception as e:
             time.sleep(1)
             # log.logger.error(e)
@@ -198,10 +193,6 @@ class SoGou():
                 continue
             r = self.requests_handler(domain)
             if r == None:
-<<<<<<< HEAD:域名对比/使用代理/搜狗收录带site/sogouSearch.py
-=======
-                print('111')
->>>>>>> ec6f61ec83cbaf6034cce9b269ebcfb7a2599c2b:域名对比/使用代理/搜狗收录带site/sogouSearch.py
                 continue
             html = etree.HTML(r.text)
             # 数据量

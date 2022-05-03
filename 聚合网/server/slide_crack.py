@@ -406,6 +406,7 @@ def get_token_page():
     session = request.form.get("session")
     if token and auth and session:
         verify_lake.add((token, auth, session))
+        print((token, auth, session))
     return render_template("test_verify.html")
 
 @app.route("/")

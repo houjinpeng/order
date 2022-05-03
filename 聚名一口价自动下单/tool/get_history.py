@@ -95,6 +95,32 @@ class GetHistory():
             print('错误')
             return False
 
+    def get_age(self,domain):
+        headers = {
+            'Accept': '*/*',
+            'Accept-Language': 'zh-CN,zh;q=0.9',
+            'Proxy-Connection': 'keep-alive',
+            'Pragma': 'no-cache',
+            'Cache-Control': 'no-cache',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'Origin': 'http://47.56.160.68:81',
+            'Host': '47.56.160.68:81',
+        }
+        data = {
+            'ym': domain['ym'],
+            'token': domain['token'],
+            'qg': ''
+        }
+        try:
+            response_detail = requests.post('http://47.56.160.68:10280/api.php', data=data, verify=False,
+                                            headers=headers, timeout=3)
+            results = response_detail.json()
+
+            return results
+        except Exception as e:
+            return self.get_age(domain)
+
 
 '''
 ym: baidu.com

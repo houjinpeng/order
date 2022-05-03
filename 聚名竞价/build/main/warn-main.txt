@@ -51,7 +51,7 @@ missing module named brotli - imported by urllib3.util.request (optional), urlli
 missing module named Queue - imported by urllib3.util.queue (conditional)
 missing module named "'urllib3.packages.six.moves.urllib'.parse" - imported by urllib3.request (top-level), urllib3.poolmanager (top-level)
 runtime module named urllib3.packages.six.moves - imported by http.client (top-level), urllib3.util.response (top-level), urllib3.connectionpool (top-level), 'urllib3.packages.six.moves.urllib' (top-level), urllib3.util.queue (top-level)
-missing module named socks - imported by urllib3.contrib.socks (optional)
+missing module named win_inet_pton - imported by socks (conditional, optional)
 missing module named _dummy_threading - imported by dummy_threading (optional)
 missing module named 'typing.io' - imported by importlib.resources (top-level)
 missing module named cryptography.x509.UnsupportedExtension - imported by cryptography.x509 (optional), urllib3.contrib.pyopenssl (optional)

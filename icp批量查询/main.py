@@ -9,11 +9,9 @@ import os
 logging.basicConfig(level = logging.INFO,format = '%(asctime)s - %(levelname)s - %(lineno)d - %(message)s')
 logger = logging.getLogger(__name__)
 ocr = ddddocr.DdddOcr()
-proxies = {
-            "http": "http://user-sp68470966:maiyuan312@gate.dc.visitxiangtan.com:20000",
-            "https": "http://user-sp68470966:maiyuan312@gate.dc.visitxiangtan.com:20000",
-        }
 
+
+save_num = 0
 class ICP():
     def __init__(self,code_name):
         self.code_name = code_name
@@ -67,15 +65,18 @@ class ICP():
             return None
 
     def save(self):
+        global save_num
         while True:
             if save_queue.empty():
                 time.sleep(2)
                 continue
-            icp_list = save_queue.get()
-            with open('备案.csv', 'a', encoding='utf-8') as fw:
-                fw.write(','.join(icp_list))
-                fw.write('\n')
-            logger.info(f'剩余任务 {save_queue.qsize()} 保存完毕')
+            while not save_queue.empty():
+                with open('备案.csv', 'a', encoding='utf-8') as fw:
+                    icp_list = save_queue.get()
+                    fw.write(','.join(icp_list))
+                    fw.write('\n')
+                    save_num += 1
+                    logger.info(f'已保存：{save_num} 保存完毕 {icp_list[0]}')
 
     def get_data(self, ym_list):
         try:
@@ -88,15 +89,17 @@ class ICP():
             os.remove(self.code_name)
             data = {
                 'ym': ''.join(ym_list),
-                # 'code': verif_api(uname='15211731111', pwd='esb104', img='code.png', typeid=3)[0]
                 'code': code
 
             }
-            r = self.s.post(self.search_url, headers=self.headers, data=data, timeout=5)
+            r = self.s.post(self.search_url, headers=self.headers, data=data, timeout=60)
+
             try:
+                if '执行sql错误，请重试' in r.text:
+                    logger.info('sql 错误 重试')
+                    return self.get_data(ym_list)
                 j = json.loads(r.text)
                 if j['msg'] == '验证码错误':
-
                     return self.get_data(ym_list)
                 logger.info(j)
             except Exception as e:
@@ -112,7 +115,7 @@ class ICP():
         except Exception :
             return None
         if len(all_icp) <= 1:
-            return False
+            return None
         for icp in all_icp[1:]:
             icp_list = []
 
@@ -147,22 +150,28 @@ class ICP():
                 domain_quque.put(ym)
                 continue
 
-
+            logger.info(f'剩余任务:{domain_quque.qsize()}')
 
 
 
 
 if __name__ == '__main__':
-    with open('备案.csv','a',encoding='utf-8') as fw:
-        fw.write('域名,主办单位名称,单位性质,网站备案/许可证号,网站名称,网站首页网址,审核时间'+'\n')
+    if os.path.exists('备案.csv') == False:
+        with open('备案.csv','a',encoding='utf-8') as fw:
+            fw.write('域名,主办单位名称,单位性质,网站备案/许可证号,网站名称,网站首页网址,审核时间'+'\n')
+        fw.close()
+    with open('备案.csv', 'r', encoding='utf-8') as fr:
+        data_str = fr.read()
 
     save_queue = queue.Queue()
-    threading.Thread(target=ICP('').save).start()
+    # threading.Thread(target=ICP('').save).start()
     domain_quque = queue.Queue()
     with open('历史存在.txt', 'r', encoding='utf-8') as fr:
         domain_list = fr.readlines()
     ls = []
     for ym in domain_list:
+        if ym.strip() in data_str:
+            continue
         ls.append(ym)
         if len(ls) == 100:
             domain_quque.put(ls.copy())
@@ -170,9 +179,9 @@ if __name__ == '__main__':
     if len(ls)!= 0:
         domain_quque.put(ls.copy())
         ls.clear()
-
+    threading.Thread(target=ICP('').save).start()
     t = []
-    for i in range(1):
+    for i in range(20):
         t.append(threading.Thread(target=ICP(f'code{i}.png').index))
     for j in t:
         j.start()
@@ -180,3 +189,4 @@ if __name__ == '__main__':
         j.join()
     logger.info('全部完成')
     # ICP().index()
+    # ICP('').save()

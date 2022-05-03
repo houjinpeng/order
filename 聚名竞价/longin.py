@@ -15,9 +15,12 @@ import json
 
 class Login():
     def __init__(self):
-        self.code_url = 'http://www.juming.com/xcode.htm?0.43599163831308596'
-        self.login_url = 'http://www.juming.com/if.htm'
-        self.tiao_url = 'http://www.juming.com/waibu/new.htm'
+        # self.code_url = 'http://www.juming.com/xcode.htm?0.43599163831308596'
+        self.code_url = 'http://old.juming.com//xcode.htm?0.43599163831308596'
+        # self.login_url = 'http://www.juming.com/if.htm'
+        self.login_url = 'http://old.juming.com//if.htm'
+        # self.tiao_url = 'http://www.juming.com/waibu/new.htm'
+        self.tiao_url = 'http://old.juming.com//waibu/new.htm'
         self.s = requests.session()
         self.headers = {
             'Accept': "application/json, text/javascript, */*; q=0.01",
@@ -38,7 +41,7 @@ class Login():
             'Connection': "keep-alive",
             'Content-Type': "application/x-www-form-urlencoded; charset=UTF-8",
             'Upgrade-Insecure-Requests':'1',
-            'Host': 'www.juming.com',
+            'Host': 'old.juming.com',
             'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
         }
 
@@ -68,7 +71,7 @@ class Login():
             r2 = self.s.get(self.tiao_url, headers=self.headers1)
             t_url = re.findall("location.href=\\'(.*)\\'", r2.text)[0]
             r3 = self.s.get(t_url, headers=self.headers1)
-            cookie = r3.history[0].cookies._cookies['www.juming.com']['/']['PHPSESSID'].value
+            cookie = r3.history[0].cookies._cookies['old.juming.com']['/']['PHPSESSID'].value
             cookie = 'PHPSESSID=' + cookie
 
             return self.s,r.text,cookie
@@ -84,7 +87,7 @@ class Login():
                 r2 = self.s.get(self.tiao_url, headers=self.headers1)
                 t_url = re.findall("location.href=\\'(.*)\\'", r2.text)[0]
                 r3 = self.s.get(t_url, headers=self.headers1)
-                cookie = r3.history[0].cookies._cookies['www.juming.com']['/']['PHPSESSID'].value
+                cookie = r3.history[0].cookies._cookies['old.juming.com']['/']['PHPSESSID'].value
                 cookie = 'PHPSESSID='+cookie
                 return self.s, r.text, cookie
             elif '验证码不正确' in r.text:
